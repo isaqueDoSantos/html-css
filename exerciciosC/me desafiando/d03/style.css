@@ -26,6 +26,7 @@ body{
 .header-foto{
     height: 85px;
     padding: 5px;
+    cursor: pointer;
 }
 
 
@@ -34,6 +35,7 @@ body{
     letter-spacing: 0.2cm;
     font-family: 'Bebas Neue', sans-serif;
     color: white;
+    cursor: pointer;
 }
 
 
