@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    min-width: 100vh;
+}
+
+header{
+    background-color: #ffffff;
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 6rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #6cdbb6;
+    
+}
+
+.logo h1{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0px 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #66ceabcb;
+    font-weight: 800;
+}
+
+.btn-logar button{
+    border: none;
+    background-color: #66ceabcb;
+    padding: 7px 8px;
+    border-radius: 6px;
+}
+
+.btn-logar button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.10rem;
+    font-weight: 800;
+}
+
+section{
+    width:100vw;
+    height: 100vh;
+    background-color: #d7d8d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.left-card{
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.main-tx h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #207a5c;
+}
+
+.main-tx p{
+    font-size: 1.10rem;
+    font-weight: 800;
+    color: #1a5f48a2;
+    margin-top: 15px;
+}
+
+.btn-email{
+   margin: 20px 0px;
+   display: flex;
+   align-items: center;
+   
+}
+
+.btn-email input{
+    width: 30vw;
+    display: block;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #000000cb;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.btn-email input::placeholder{
+    color: #000000cb;
+}
+
+.btn-email button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #6cdbb6 ;
+    border-radius: 0px 7px 7px 0px;
+    height: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.midias-sociais{
+    margin-top: 20px;
+}
+
+.midias-sociais i{
+    font-size: 23px;
+    margin: 0 3px;
+    color: #ffffff;
+    background-color: #6cdbb6;
+    padding: 7px;
+    border-radius: 7px;
+}
+/*
+.img-right img{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.imagem{
+    width: 40vw;
+}
+
+
+
+
+
