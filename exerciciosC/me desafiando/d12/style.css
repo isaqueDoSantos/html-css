@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-color: #ffffff;
+    background-color: #fcf7f7c0;
     
 }
 
@@ -49,7 +49,7 @@ header{
 }
 
 .nav-item{
-    margin: 0px 10px;
+    margin: 0px 20px;
 }
 
 .nav-link{
